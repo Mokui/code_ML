@@ -1,6 +1,4 @@
-# my codes Machine Learning
-
-## List of my codes in Machine Learning
+# List of my codes in Machine Learning
 my codes Machine Learning
 
 ## 1/ Statistics pandas
