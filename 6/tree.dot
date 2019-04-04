@@ -1,0 +1,25 @@
+digraph Tree {
+node [shape=box, style="rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label="petal width (cm) <= 0.8\nmse = 0.7\nsamples = 92\nvalue = 1.0"] ;
+1 [label="mse = 0.0\nsamples = 32\nvalue = 0.0"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="petal width (cm) <= 1.7\nmse = 0.2\nsamples = 60\nvalue = 1.5"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+3 [label="petal length (cm) <= 5.0\nmse = 0.0\nsamples = 29\nvalue = 1.0"] ;
+2 -> 3 ;
+4 [label="mse = 0.0\nsamples = 28\nvalue = 1.0"] ;
+3 -> 4 ;
+5 [label="mse = 0.0\nsamples = 1\nvalue = 2.0"] ;
+3 -> 5 ;
+6 [label="petal length (cm) <= 4.9\nmse = 0.0\nsamples = 31\nvalue = 2.0"] ;
+2 -> 6 ;
+7 [label="sepal width (cm) <= 3.1\nmse = 0.2\nsamples = 3\nvalue = 1.6"] ;
+6 -> 7 ;
+8 [label="mse = 0.0\nsamples = 2\nvalue = 2.0"] ;
+7 -> 8 ;
+9 [label="mse = 0.0\nsamples = 1\nvalue = 1.0"] ;
+7 -> 9 ;
+10 [label="mse = 0.0\nsamples = 28\nvalue = 2.0"] ;
+6 -> 10 ;
+}
