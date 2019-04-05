@@ -34,7 +34,7 @@ def main():
     plt.scatter(x, y, 30, colors) #Here come the rainbow
 
     y_pred = reg.predict(x) 
-    next_y = (reg.predict([[20]]))
+    next_y = (reg.predict([[20]])) #On prévoit la valeur de y le 05/04
     
     plt.plot(x, y_pred, 'c-', lw=2)
 

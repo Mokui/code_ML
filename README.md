@@ -19,5 +19,14 @@ logistik.py is my final code, using logistic regression librairy
 
 ## 4/ Infinitesimal calculs
 
-movielens.py use an example of infinitesimal calcul with SVD algorithm and movielens librairy
+calcul.py is a simple calcul code that find a value at a precision rounded reducting the variance
+taylor.py is a application of the taylor formula (with MacLaurin simplification) that give the log expression and the infinitesimal calcul
+
+## 5/ Recommendation
+
+movielens.py use an example of frequency words calcul with SVD algorithm and movielens librairy
 tf_idp.py show differents words and words frequency in a text
+
+## 6/ Random Forest
+
+It's a new ML Calcul allowing to get scatter of points in a area and differenciate it
