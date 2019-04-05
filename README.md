@@ -30,3 +30,5 @@ tf_idp.py show differents words and words frequency in a text
 ## 6/ Random Forest
 
 It's a new ML Calcul allowing to get scatter of points in a area and differenciate it
+
+## 7/ Eigenfaces

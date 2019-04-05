@@ -1,31 +1,36 @@
 import numpy as np
 from sklearn.linear_model import LinearRegression
-X = np.array([[1, 1], [1, 2], [2, 2], [2, 3]])
-# y = 1 * x_0 + 2 * x_1 + 3
-print(X) 
 
-y = np.dot(X, np.array([1, 2])) + 3
-reg = LinearRegression().fit(X, y)
+def main(): 
+    X = np.array([[1, 1], [1, 2], [2, 2], [2, 3]])
+    # y = 1 * x_0 + 2 * x_1 + 3
+    print(X) 
 
-print("Score de corrélation ", reg.score(X, y))
+    y = np.dot(X, np.array([1, 2])) + 3
+    reg = LinearRegression().fit(X, y)
 
-print("coef trajectoire courbe", reg.coef_)
+    print("Score de corrélation ", reg.score(X, y))
 
-print("intercept", reg.intercept_)
+    print("coef trajectoire courbe", reg.coef_)
 
-print("predict", reg.predict(np.array([[3, 5]])))
+    print("intercept", reg.intercept_)
 
-print("---------------------------------------------")
+    print("predict", reg.predict(np.array([[3, 5]])))
 
-""" y = np.dot(X, np.array([1, 2])) + 1
-reg = LinearRegression().fit(X, y)
+    print("---------------------------------------------")
 
-print("Score de corrélation ", reg.score(X, y))
+    """ y = np.dot(X, np.array([1, 2])) + 1
+    reg = LinearRegression().fit(X, y)
 
-print("coef trajectoire courbe ", reg.coef_)
+    print("Score de corrélation ", reg.score(X, y))
 
-print("intercept", reg.intercept_)
+    print("coef trajectoire courbe ", reg.coef_)
 
-print("predict", reg.predict(np.array([[3, 5]])))
+    print("intercept", reg.intercept_)
 
-print("---------------------------------------------") """
+    print("predict", reg.predict(np.array([[3, 5]])))
+
+    print("---------------------------------------------") """
+
+if __name__ == "__main__":
+    main()
