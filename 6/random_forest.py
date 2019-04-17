@@ -6,6 +6,11 @@ from sklearn.tree import export_graphviz
 import pydot
 
 def main():
+
+    # Use load data of one of this site:
+    # https://scikit-learn.org/stable/datasets/index.html#real-world-datasets
+
+    # Else charge this Mnist data
     iris = load_iris()
 
     # print(iris.DESCR)
