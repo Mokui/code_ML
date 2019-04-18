@@ -1,6 +1,6 @@
 # List of my codes in Machine Learning
 
-Thanks to @Killy85 - For his README that i reuse plenty of part here.
+Thanks to @Killy85 - For his README that i reuse plenty of parts here.
 This repo is the synthesis of all the exercices asked during the Machine Learning course I followed at Ynov in 2019.
 
 The lesson was given by Jeff Abrahamson @JeffAbrahamson, whom gave us the basics needed to understand properly the base mechanism of Machine Learning
@@ -33,14 +33,14 @@ This folder contain a python script and a csv data file. The script import data 
 To run it, imagining you have a shell at the root of this git project, just type:
 
 ```console
-$ cd 01
+$ cd 1
 $ python test.py
 ```
 
 test.py use a set of data wich is bit useless, so to get a correct example i made an other with bitcoin (cf bitcoin.py)
 
 ```console
-$ cd 01
+$ cd 1
 $ python bitcoin.py
 ```
 
@@ -62,7 +62,7 @@ main.py is the correct python file to launch
 You can see the work that has been made using the following command:
 
 ```console
-$ cd 02
+$ cd 2
 $ python main.py
 ```
 
@@ -87,7 +87,7 @@ Two things to do:
     To launch it you just have to type the following in your shell:
     
 ```console
-$ cd 04
+$ cd 4
 $ python calcul.py
 ```
 
@@ -97,7 +97,7 @@ $ python calcul.py
     To launch it you just have to type the following in your shell:
     
 ```console
-$ cd 04
+$ cd 4
 $ python taylor.py
 ```
 
@@ -120,7 +120,7 @@ We train a model, using [`surprise`](http://surpriselib.com/) which ,thanks to l
 To launch it, type the following:
 
 ```console
-$ cd 05
+$ cd 5
 $ python movielens.py
 ```
 
@@ -131,7 +131,7 @@ tf_idp.py show differents words and words frequency in a text
 To run this, you just have to type:
 
 ```console
-$ cd 05
+$ cd 5
 $ python tf_idf.py
 ```
 
@@ -142,7 +142,7 @@ It's a new ML Calcul allowing to get scatter of points in a area and differencia
 Using a lib called [`graphviz`](https://www.graphviz.org/) we can visualize the tree of decision for each component of a load of data, try it (make sure you can write in the space where you are launchinh the code):
 
 ```console
-$ cd 06
+$ cd 6
 $ python random_forest.py
 ```
 
