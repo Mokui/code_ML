@@ -12,7 +12,6 @@ def format_date(myDate) :
     delta = l_date - f_date
     return delta.days
 
-# May need to reformat_date this code or use sklearn, quite complicated in 10minutes.
 def main():
     data = [[format_date("2019-03-16"), 81682.0], [format_date("2019-03-18"), 81720.0], [format_date("2019-03-20"), 81760.0], 
     [format_date("2019-03-24"), 81826.0], [format_date("2019-03-25"), 81844.0], [format_date("2019-03-26"), 81864.0], [format_date("2019-03-27"),81881.0], 
@@ -34,11 +33,11 @@ def main():
     plt.scatter(x, y, 30, colors) #Here come the rainbow
 
     y_pred = reg.predict(x) 
-    next_y = (reg.predict([[20]])) #On prévoit la valeur de y le 05/04
+    next_y = (reg.predict([[20]])) #predict value for 05/04
     
     plt.plot(x, y_pred, 'c-', lw=2)
 
-    plt.legend(next_y) # affiche le prochain Y
+    plt.legend(next_y) # display next Y
     #plt.plot([next_y, next_y], [0.0, 90000], 'r-', lw=2) #Wanna plot a single straight vertical line but it erase my previous plot for no reason
     
     plt.show() 
