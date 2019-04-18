@@ -4,11 +4,12 @@ import numpy as np
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.tree import export_graphviz
 import pydot
+import time
 
 def main():
-
-    # Use load data of one of this site:
-    # https://scikit-learn.org/stable/datasets/index.html#real-world-datasets
+    # Time calcul
+    t1_start = time.perf_counter()
+    t2_start = time.process_time()
 
     # Else charge this Mnist data
     iris = load_iris()
@@ -30,6 +31,12 @@ def main():
 
     # Write graph to a png file
     graph.write_png('tree.png')
+
+    # End Time calcul
+    t1_stop = time.perf_counter()
+    t2_stop = time.process_time()
+    print("Elapsed time: %.1f [sec]" % ((t1_stop-t1_start)))
+    print("CPU process time: %.1f [sec]" % ((t2_stop-t2_start)))
 
 if __name__ == "__main__":
     main()
