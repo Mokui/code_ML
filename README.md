@@ -5,7 +5,6 @@ This repo is the synthesis of all the exercices asked during the Machine Learnin
 
 The lesson was given by Jeff Abrahamson @JeffAbrahamson, whom gave us the basics needed to understand properly the base mechanism of Machine Learning
 
-
 To execute the examples, ensure you have installed Python3.6 and all the libraries listed in `requirements.txt`
 
 For python version, you may run :
@@ -20,11 +19,12 @@ which should return
 $ python --version
 Python 3.6.7
 ```
+
 or higher.
 
 ## 1/ Statistics pandas
 
-During the first lesson, Jeff introduce us to [`python`](https://www.python.org/) and [`pandas`](https://pandas.pydata.org/). 
+During the first lesson, Jeff introduce us to [`python`](https://www.python.org/) and [`pandas`](https://pandas.pydata.org/).
 
 The first one is a language really helpfull while doing Machine Learning. `pandas` is a library specialized in data treatment which may be of great help when sorting and analysing data.
 
@@ -80,22 +80,22 @@ I only made the OvO (One versus One) version because of the comprehension OvR pr
 
 We were introduced to infinitesimal calculus and had to do some calculation using python.
 
-
 Two things to do:
-* Approach the value **e** using the fact that if **a == e** then **ln(a) = 1**
-    `calcul.py` is a simple calcul code that find a value at a precision rounded reducting the variance
-    To launch it you just have to type the following in your shell:
-    
+
+- Approach the value **e** using the fact that if **a == e** then **ln(a) = 1**
+  `calcul.py` is a simple calcul code that find a value at a precision rounded reducting the variance
+  To launch it you just have to type the following in your shell:
+
 ```console
 $ cd 4
 $ python calcul.py
 ```
 
-* Calculate the value of **e** locally using the Taylor's sequence
+- Calculate the value of **e** locally using the Taylor's sequence
 
-    `taylor.py` is a application of the taylor formula (with MacLaurin simplification) that give the log expression and the infinitesimal calcul
-    To launch it you just have to type the following in your shell:
-    
+  `taylor.py` is a application of the taylor formula (with MacLaurin simplification) that give the log expression and the infinitesimal calcul
+  To launch it you just have to type the following in your shell:
+
 ```console
 $ cd 4
 $ python taylor.py
@@ -107,9 +107,9 @@ We then studied recommendation algorithms. Thoses algorithms aims a predicting c
 
 There is 3 types of recommendations:
 
-* Content-based recommendation
-* Collaborative recommendation
-* Knowledge-Based recommendation
+- Content-based recommendation
+- Collaborative recommendation
+- Knowledge-Based recommendation
 
 We studied the first 2 of them, the third one being expensive and hard to apply.
 
@@ -146,4 +146,12 @@ $ cd 6
 $ python random_forest.py
 ```
 
-## 7/ Eigenfaces
+## 7/ SVM
+
+Clustering system aiming to scatter points of an area and clust it with classifiers
+Using [`SVC`](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html) from SVM lib
+
+```console
+$ cd 7
+$ python svm.py
+```
