@@ -119,7 +119,7 @@ def main():
     plt.plot(epochs, acc, 'bo', label='Training acc')
     plt.plot(epochs, val_acc, 'b', label='Validation acc')
     plt.title('Training and validation accuracy')
-    plt.xlabel('Epochs')
+    plt.xlabel('Iterations')
     plt.ylabel('Accuracy')
     plt.legend()
 
