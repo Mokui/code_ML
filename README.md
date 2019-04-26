@@ -155,3 +155,14 @@ Using [`SVC`](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.
 $ cd 7
 $ python svm.py
 ```
+
+## 8/ Neuron Network
+
+Simple test of tensorflow and keras.
+I used a imdb datasets avalaible with keras library
+It show the loss and the accuracy on imdb movie reviews
+
+```console
+$ cd 8
+$ python tensorflou.py
+```

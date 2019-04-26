@@ -44,10 +44,10 @@ def main():
       tabx = []
       taby = []
       for i in range(0, len(split[0]), 1): 
-      for data2 in split[0][i]:
-            tabx.append(data2)
-            taby.append(y[i])
-            # print(1 / (1 + np.exp(-(data2 * reg.coef_ + reg.intercept_)))) # calcul logistique
+            for data2 in split[0][i]:
+                  tabx.append(data2)
+                  taby.append(y[i])
+                  # print(1 / (1 + np.exp(-(data2 * reg.coef_ + reg.intercept_)))) # calcul logistique
       plt.scatter(tabx, taby)
       # turner()
       # plt.plot(x, turner(x), color='red')
