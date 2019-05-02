@@ -166,3 +166,18 @@ It show the loss and the accuracy on imdb movie reviews
 $ cd 8
 $ python tensorflou.py
 ```
+
+Here there an example with Perceptron too (image regnozition). This time we need opencv lib:
+
+```console
+$ pip install opencv-python
+```
+
+Then you can launch it!
+
+```console
+$ cd 8
+$ python perceptron_test.py
+```
+
+You can stop it by simply press any key when the program seem to not move anymore
