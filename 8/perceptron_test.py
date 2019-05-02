@@ -12,7 +12,7 @@ import numpy as np
 
 # Define an array of 0 or 1 for each 64 pixels of each images
 def create_weight_images():
-    weight_images = [[random.uniform(0, 1) for elem in range(0, 64)] for elem in range(0, 10)]
+    weight_images = [[random.uniform(0, 1) for elem in range(0, 64)] for elem in range(0, 20)]
     return weight_images
 
 def calculate_new_weight(image, number, weight_images):
