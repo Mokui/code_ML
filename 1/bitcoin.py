@@ -3,7 +3,7 @@ import pandas as pa
 import matplotlib.pyplot as plt
 
 def main():
-    data = pa.read_csv("data/cours_bitcoin.csv",sep=';', encoding='latin-1')
+    data = pa.read_csv("../data/cours_bitcoin.csv",sep=';', encoding='latin-1')
 
     print(data) #simple display
 
